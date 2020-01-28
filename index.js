@@ -34,4 +34,9 @@ function prependKitten(name){
   array1.unshift(name)
   return array1
 }
-  
+function removeFirstKitten(){
+  var array1 = []
+  array1 = array1.concat(kittens)
+  array1.shift()
+  return array1
+}
