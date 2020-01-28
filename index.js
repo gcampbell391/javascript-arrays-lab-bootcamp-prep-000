@@ -28,4 +28,10 @@ function appendKitten(name){
   array1.push(name)
   return array1
 }
+function prependKitten(name){
+  var array1 = []
+  array1 = array1.concat(kittens)
+  array1.unshift(name)
+  return array1
+}
   
