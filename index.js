@@ -22,4 +22,10 @@ function removeLastKitten(){
   array1.pop()
   return array1
 }
+function apendKitten(name){
+  var array1 = []
+  array1 = array1.concat(kittens)
+  array1.push(name)
+  return array1
+}
   
