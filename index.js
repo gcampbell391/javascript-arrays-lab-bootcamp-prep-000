@@ -17,7 +17,8 @@ function destructivelyRemoveFirstKitten(){
   return kittens
 }
 function removeLastKitten(){
-  kittens = new array1[]
+  var array1 = []
+  kittens = array1
   array1.slice(0, kittens.length - 1)
   return array1
 }
