@@ -21,4 +21,3 @@ function removeLastKitten(){
   return kittens
 }
   
-}
